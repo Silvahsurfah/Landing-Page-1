@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: century gothic;;
+}
+
+#fullscreen-background {
+  background: url('https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Global */
+.container {
+  width: 60%;
+  margin: auto;
+  padding-top: 270px;
+  
+}
+
+/* Top Nav */
+header {
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  opacity: 0.6;
+  height: 60px;
+  position: fixed;
+}
+
+header li {
+  float: right;
+  display: inline;
+  padding-right: 35px;
+  padding-top: 5px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+header a:hover {
+  color: #000;
+}
+
+/* Email Content*/
+.content form input{
+  width: 50%;
+  height: 30px;
+}
+
+.content form button {
+  background: black;
+  border: none;
+  color: white;
+  height: 30px;
+}
+
+/* Footer */
+footer {
+  padding-left: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.6;
+  font-size: 1.03rem;
+}
